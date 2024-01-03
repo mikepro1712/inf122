@@ -1,3 +1,3 @@
-#Clase \n
-Miguel Angel Nogales Araca \n
+#Clase 
+Miguel Angel Nogales Araca 
 INF122
