@@ -1,7 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: nunito;
     line-height: 1.6;
-    margin: 20px;
+    margin: 0;
 }
 
 h1 {
@@ -19,4 +19,15 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+:root {
+    --white: #ffffff;
+    --black: #000000M;
+    --purple: #6F2CFF;
+    --light-purple: #EDE9F9;
+    --RED-heart: #A50954;
+    --blue-heart: #ACD9B2;
+    --sm: 14px;
+    --md: 20px;
+    --lg: 60px;
 }
