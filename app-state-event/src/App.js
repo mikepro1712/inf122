@@ -7,9 +7,11 @@ function App() {
   const [nroClicks, setNumClicks] = useState(0);
   const click = () => {
     setNumClicks(nroClicks + 1);
+    console.log("click");
   }
   const reiniciar = () => {
     setNumClicks(0);
+    console.log("reiniciar");
   }
   return (
     <div className="App">
