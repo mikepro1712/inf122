@@ -24,6 +24,13 @@ function App() {
     setNumClicks(0);
     console.log("reiniciar");
   }
+  const desaparecer = () => {
+    delete("click");
+  }
+  const [ show ,setShow] = useState(true);
+  const mostrar =() => {
+    setShow (!show)
+    }
   return (
     <div className="App">
       <div className="contenedor-principal">
@@ -38,12 +45,13 @@ function App() {
           <Boton texto="+1" esBotonClick={true}
             funcionClick={clickMas1} />
           </div>
+          <Boton texto="Desaparecer" esBotonClick={false}
+            funcionClick={desaparecer} />
           <Boton texto="Reiniciar" esBotonClick={false}
             funcionClick={reiniciar} />
-            
         </div>
       </div>
   );
-}
 
+  }
 export default App;
