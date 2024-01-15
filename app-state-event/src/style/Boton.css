@@ -1,0 +1,15 @@
+button {
+    width: 300px;
+    height: 80px;
+    font-family: Roboto, sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 24px;
+    background-color: #FF872C;
+}
+
+button:hover {
+    background-color: #DCDCE5;
+    color: #FF872C;
+}
