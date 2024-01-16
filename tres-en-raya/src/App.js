@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 import Tablero from './components/Tablero';
-import TableroB from './components/TableroB';
-import TableroC from './components/TableroC';
 import Juego from './components/Juego';
 
 function App() {
@@ -12,10 +10,7 @@ function App() {
   return (
     <div className="App">
 
-      {/* <Tablero />
-      <TableroB />
-      <TableroC /> */}
-      //el juego instancia el tablero
+      {/* <Tablero /> */}
       <Juego />
     </div>
   );

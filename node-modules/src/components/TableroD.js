@@ -3,6 +3,7 @@ import '../style/Tablero.css';
 import CuadroB from './CuadroB';
 
 function TableroD({ cuadros, onClick }) {
+    //Desde el juego nos van a enviar CuadroB
     function renderizarCuadro(i) {
         return (
             <CuadroB

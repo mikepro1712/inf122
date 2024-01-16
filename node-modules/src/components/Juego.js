@@ -9,7 +9,6 @@ function Juego() {
     ]);
     const [numeroPaso, setNumeroPaso] = useState(0);
     const [esTurnoDeX, setEsTurnoDeX] = useState(true);
-
     function alHacerClic(i) {
         const nuevoHistorial = historial.slice(0, numeroPaso + 1);
         const actual = nuevoHistorial[nuevoHistorial.length - 1];
@@ -22,15 +21,12 @@ function Juego() {
         setNumeroPaso(nuevoHistorial.length);
         setEsTurnoDeX(!esTurnoDeX);
     }
-
     function saltarA(paso) {
         setNumeroPaso(paso);
         setEsTurnoDeX(paso % 2 === 0);
     }
-
     const actual = historial[numeroPaso];
     const ganador = calcularGanador(actual.cuadros);
-
     const movimientos = historial.map((paso, movimiento) => {
         const descripcion = movimiento ?
             'Ir al movimiento #' + movimiento :
@@ -41,7 +37,6 @@ function Juego() {
             </li>
         );
     });
-
     let estado;
     if (ganador) {
         estado = "Ganador: " + ganador;
@@ -64,9 +59,7 @@ function Juego() {
         </div>
     );
 }
-
 // ========================================
-
 function calcularGanador(cuadros) {
     const lineas = [
         [0, 1, 2],
@@ -86,5 +79,4 @@ function calcularGanador(cuadros) {
     }
     return null;
 }
-
 export default Juego;
