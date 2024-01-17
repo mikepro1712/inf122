@@ -1,0 +1,31 @@
+.App1 {
+  height: 700px;
+  width: 800px;
+  align-content: flex-start;
+  flex-direction: row;
+
+}
+.Boton{
+  width: 180px;
+  height: 120px;
+  font-weight: 500;
+}
+.texto{
+  width: 350px;
+  height: 100px;
+  font-weight: 500;
+}
+.contenedor-principal{
+  display: flex;
+  gap: 40px;
+  margin-right: 500px;
+  align-items: center;
+  width: 60%;
+  height: 40%;
+}
+.visible{
+  display: block;
+}
+.oculto{
+  display: none;
+}
