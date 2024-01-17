@@ -1,0 +1,40 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    margin-top: 0%;
+}
+.progress-bar-container {
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .text{
+    display: flex;
+    flex-direction: row;
+  }
+.titulo{
+    height: 50px;
+}
+.progress-bar {
+    position: relative;
+    height: 20px;
+    background-color: #ff30f5;
+    overflow: hidden;
+  }
+  
+  .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .progress-bar:hover .progress-text {
+    opacity: 1;
+  }

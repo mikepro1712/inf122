@@ -6,7 +6,7 @@ function App1() {
   const mostrar = () => {
     setShow(!show);
   }
-  
+
   return (
     <section className="App1">
       <div className="contenedor-principal">
