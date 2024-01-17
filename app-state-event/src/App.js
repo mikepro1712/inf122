@@ -6,26 +6,27 @@ function App() {
   const [nroClicks, setNumClicks] = useState(0);
   const clickMenos3 = () => {
     setNumClicks(nroClicks -3);
-    console.log("click");
+    console.log("click-3");
   }
   const clickMas3 = () => {
     setNumClicks(nroClicks + 3);
-    console.log("click");
+    console.log("click+3");
   }
   const clickMenos1 = () => {
     setNumClicks(nroClicks - 1);
-    console.log("click");
+    console.log("click-1");
   }
   const clickMas1 = () => {
     setNumClicks(nroClicks + 1);
-    console.log("click");
+    console.log("click+1");
   }
   const reiniciar = () => {
     setNumClicks(0);
     console.log("reiniciar");
   }
   const desaparecer = () => {
-    delete("click");
+    delete("click-3");
+    console.log("Desaparecer un boton");
   }
   const [ show ,setShow] = useState(true);
   const mostrar =() => {
@@ -49,8 +50,8 @@ function App() {
             funcionClick={desaparecer} />
           <Boton texto="Reiniciar" esBotonClick={false}
             funcionClick={reiniciar} />
-        </div>
       </div>
+    </div>
   );
 
   }
