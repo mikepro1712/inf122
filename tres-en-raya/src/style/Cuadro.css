@@ -1,0 +1,11 @@
+.cuadro {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    background-color: chartreuse;
+    color: rgb(0, 16, 233)
+}
