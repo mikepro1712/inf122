@@ -1,0 +1,30 @@
+.Nombre{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.Apellido{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.contraseña{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.Buttons{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+}
+.padre{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.main{
+    height:100%;
+}
