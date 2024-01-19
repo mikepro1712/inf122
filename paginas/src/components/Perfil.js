@@ -1,9 +1,10 @@
 import React from "react";
 import Botones from "./Botones";
+import { useRef } from 'react';
 import '../styles/Register.css';
-function Register(){
-    const funClick=(c)=>{
-        console.log(c);
+function Perfil(){
+    const funClick=(a)=>{
+        console.log(a);
     }
     return(
         <div className="main">
@@ -29,4 +30,4 @@ function Register(){
             </div>
     );
 }
-export default Register;
+export default Perfil;

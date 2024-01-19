@@ -1,7 +1,10 @@
 import React from "react";
 import Botones from "./Botones";
 import '../styles/Login.css';
-function Login({funClick, text}){
+function Login(){
+    const funClick=(b)=>{
+        console.log(b);
+    }
     return(
         <div className="main">
             <div className="padre">
