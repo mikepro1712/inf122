@@ -1,8 +1,9 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {Link, Outlet} from "react-router-dom";
 import { useRef } from 'react';
 function Navbar(){
     return(
+        <>
     <nav>
     <ul>
         <li>
@@ -19,5 +20,7 @@ function Navbar(){
         </li>
       </ul>
 </nav>
+<Outlet/>
+ </>
 );}
 export default Navbar;
