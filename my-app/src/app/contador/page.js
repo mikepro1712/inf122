@@ -1,4 +1,6 @@
-import './App.css';
+'use client';
+import style from './page.module.css';
+//para consumir el estilo
 import Boton from './components/Boton';
 import Contador from './components/Contador';
 import { useState } from 'react';
@@ -30,11 +32,11 @@ function App() {
     setShow(!show);
   }
   return (
-    <div className="App">
-      <div className="contenedor-principal">
+    <div className={style.App}>
+      <div className={style["contenedor-principal"]}>
         <Contador nroClicks={nroClicks} mostrar={show} />
-        <div className='contendedor-botones'>
-          <div className='contendedor-botones-numeros'>
+        <div className={style[contendedor-botones]}>
+          <div className={style[contendedor-botones-numeros]}>
             <Boton texto="-3" esBotonClick={true}
               funcionClick={clickMenos3} />
             <Boton texto="+3" esBotonClick={true}
