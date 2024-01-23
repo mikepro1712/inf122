@@ -35,8 +35,8 @@ function App() {
     <div className={style.App}>
       <div className={style["contenedor-principal"]}>
         <Contador nroClicks={nroClicks} mostrar={show} />
-        <div className={style[contendedor-botones]}>
-          <div className={style[contendedor-botones-numeros]}>
+        <div className={style["contendedor-botones"]}>
+          <div className={style["contendedor-botones-numeros"]}>
             <Boton texto="-3" esBotonClick={true}
               funcionClick={clickMenos3} />
             <Boton texto="+3" esBotonClick={true}

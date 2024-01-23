@@ -4,19 +4,21 @@
     height: 100vh;
     justify-items: center;
     align-items: center;
+    background-color: red;
   }
   
   .contenedor-principal {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: yellow;
   }
   
   .contendedor-botones {
     display: flex;
     flex-direction: column;
     justify-items: center;
-  
+    background-color: greenyellow;
   }
   
   .contendedor-botones-numeros {
@@ -24,4 +26,5 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     align-items: center;
+    background-color: blue;
   }
