@@ -1,0 +1,12 @@
+.Container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+/*se puede usar esto combinado con el de arriba img */
+.Container img{
+    border-radius: 50%;
+    object-fit:cover;
+}

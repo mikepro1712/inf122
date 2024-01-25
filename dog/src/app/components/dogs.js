@@ -7,7 +7,7 @@ import style from "./dogs.module.css";
 function Dog() {
     const [dog, setDog] = useState("/vercel.svg")
 
-    const url = "https://dog.ceo/api/breed/basenji/images/random"
+    const url = "https://dog.ceo/api/breed/spanish_waterdog/images/random";
     useEffect(() => {
         fetch(url)
             .then(res => res.json())
